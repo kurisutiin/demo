@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="16" started-at="2017-09-22T17:25:06Z" finished-at="2017-09-22T17:25:06Z">
+    <groups>
+      <group name="group 2">
+        <method signature="GroupTest.secondgroup()[pri:0, instance:FirstTestNG.GroupTest@30c7da1e]" name="secondgroup" class="FirstTestNG.GroupTest"/>
+        <method signature="TestNGDemo_1.secondtest()[pri:0, instance:FirstTestNG.TestNGDemo_1@6e8dacdf]" name="secondtest" class="FirstTestNG.TestNGDemo_1"/>
+        <method signature="TestNGDemo_2.ni()[pri:0, instance:FirstTestNG.TestNGDemo_2@19dfb72a]" name="ni" class="FirstTestNG.TestNGDemo_2"/>
+      </group> <!-- group 2 -->
+      <group name="group 1">
+        <method signature="GroupTest.firstgroup()[pri:0, instance:FirstTestNG.GroupTest@30c7da1e]" name="firstgroup" class="FirstTestNG.GroupTest"/>
+        <method signature="TestNGDemo_1.firsttest()[pri:0, instance:FirstTestNG.TestNGDemo_1@6e8dacdf]" name="firsttest" class="FirstTestNG.TestNGDemo_1"/>
+      </group> <!-- group 1 -->
+    </groups>
+    <test name="test cases" duration-ms="16" started-at="2017-09-22T17:25:06Z" finished-at="2017-09-22T17:25:06Z">
+      <class name="FirstTestNG.TestNGDemo_1">
+        <test-method status="PASS" signature="secondtest()[pri:0, instance:FirstTestNG.TestNGDemo_1@6e8dacdf]" name="secondtest" duration-ms="0" started-at="2017-09-22T13:25:06Z" finished-at="2017-09-22T13:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtest -->
+        <test-method status="PASS" signature="firsttest()[pri:0, instance:FirstTestNG.TestNGDemo_1@6e8dacdf]" name="firsttest" duration-ms="0" started-at="2017-09-22T13:25:06Z" finished-at="2017-09-22T13:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firsttest -->
+      </class> <!-- FirstTestNG.TestNGDemo_1 -->
+      <class name="FirstTestNG.GroupTest">
+        <test-method status="PASS" signature="firstgroup()[pri:0, instance:FirstTestNG.GroupTest@30c7da1e]" name="firstgroup" duration-ms="16" started-at="2017-09-22T13:25:06Z" finished-at="2017-09-22T13:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstgroup -->
+        <test-method status="PASS" signature="secondgroup()[pri:0, instance:FirstTestNG.GroupTest@30c7da1e]" name="secondgroup" duration-ms="0" started-at="2017-09-22T13:25:06Z" finished-at="2017-09-22T13:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondgroup -->
+      </class> <!-- FirstTestNG.GroupTest -->
+      <class name="FirstTestNG.TestNGDemo_2">
+        <test-method status="PASS" signature="ni()[pri:0, instance:FirstTestNG.TestNGDemo_2@19dfb72a]" name="ni" duration-ms="0" started-at="2017-09-22T13:25:06Z" finished-at="2017-09-22T13:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ni -->
+      </class> <!-- FirstTestNG.TestNGDemo_2 -->
+    </test> <!-- test cases -->
+  </suite> <!-- Automation -->
+</testng-results>

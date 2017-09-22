@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name= "Automation">
+<test name = "test cases">
+	<groups>
+	<run>
+	<include name = "group 1" />
+	<include name = "group 2" />
+	
+	</run>
+	</groups>
+	
+	<classes>
+	<class name ="FirstTestNG.GroupTest" />
+	<class name ="FirstTestNG.TestNGDemo_1" />
+	<class name ="FirstTestNG.TestNGDemo_2" />
+	
+	</classes>
+</test>		
+		</suite>
